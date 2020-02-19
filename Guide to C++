@@ -1,0 +1,26 @@
+Example 1: Hello World Program
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Hello, World!";
+    return 0;
+}
+Output
+
+Hello, World!
+Every C++ program starts from the main() function.
+
+The cout is the standard output stream which
+ prints the Hello, World! string on the monitor.
+
+The return 0; is the Exit status of the program.
+
+Example 2: Hello World Program
+#include <iostream>
+int main() {
+    std::cout << "Hello, World!";
+    return 0;
+}
+Output
+
+Hello, World!
